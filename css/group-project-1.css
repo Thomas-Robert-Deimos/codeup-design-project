@@ -223,6 +223,13 @@ ul{
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media screen and (min-width: 576px) {
+    .button-margin-left{
+        margin: 0;
+    }
+
+    .button-margin-right{
+        margin: 0;
+    }
 
 }
 
