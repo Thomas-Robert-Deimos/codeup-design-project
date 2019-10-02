@@ -32,6 +32,9 @@ ul{
     list-style: none;
 }
 
+hr{
+    width: 75%;
+}
 
 .project-img{
     /*width: 200px;*/
@@ -237,7 +240,9 @@ ul{
 
 /*// Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
-
+    hr{
+        width: 90%;
+    }
 }
 
 /*// Large devices (desktops, 992px and up)*/
