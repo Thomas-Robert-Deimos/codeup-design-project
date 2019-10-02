@@ -96,11 +96,11 @@ ul{
 }
 
 .button-margin-left{
-    margin: 10px 10px 10px 40px;
+    /*margin: 10px 10px 10px 40px;*/
 }
 
 .button-margin-right{
-    margin: 10px 40px 10px 10px;
+    /*margin: 10px 40px 10px 10px;*/
 }
 /*
 
@@ -147,7 +147,7 @@ ul{
     font-size: 28px;
 }
 
-.not-xsmall-nav{
+.hidden-xs{
     visibility: hidden;
 }
 
@@ -230,7 +230,9 @@ ul{
     .button-margin-right{
         margin: 0;
     }
-
+    .hidden-xs{
+        visibility: visible;
+    }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
