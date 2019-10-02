@@ -94,6 +94,14 @@ ul{
 .button-margin{
     margin: 10px;
 }
+
+.button-margin-left{
+    margin: 10px 10px 10px 40px;
+}
+
+.button-margin-right{
+    margin: 10px 40px 10px 10px;
+}
 /*
 
     Logo and Nav Bar & xsmall setup
