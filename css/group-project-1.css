@@ -41,8 +41,32 @@ hr{
     border: #E6E6E6 solid 10px;
     border-radius: 5px;
     width: 90%;
+    object-fit: cover;
+
+}
+
+.sidebar-img{
+    width: 100%;
     object-fit: contain;
 }
+
+.img-container{
+    /*border: #E6E6E6 solid 10px;*/
+    /*border-radius: 5px;*/
+    /*width: 90%;*/
+    /*padding-top: 56.25%;*/
+    /*object-fit: contain;*/
+}
+
+.box-frame{
+    /*border: #E6E6E6 solid 10px;*/
+    /*border-radius: 5px;*/
+    /*width: 90%;*/
+    /*object-fit: contain;*/
+    /*max-height: 90%;*/
+}
+
+/*.row > div > img{ width: 100%; display: block;}*/
 
 .img-flex{
     width: 90%;
@@ -154,6 +178,10 @@ hr{
     visibility: hidden;
 }
 
+.hidden-s{
+    visibility: hidden;
+}
+
 .center-title{
     text-align: center;
 }
@@ -214,6 +242,14 @@ hr{
     background-color: #04AAAA;
 }
 
+.center-t{
+    text-align: center;
+}
+
+.img-max-man {
+    overflow: hidden;
+}
+
 /*
 
     media screens
@@ -236,6 +272,7 @@ hr{
     .hidden-xs{
         visibility: visible;
     }
+
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -243,11 +280,19 @@ hr{
     hr{
         width: 90%;
     }
+
+    .hidden-s{
+        visibility: visible;
+    }
+
 }
 
 /*// Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
-
+    .center-t{
+        text-align: left;
+        padding-left: 30px;
+    }
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
