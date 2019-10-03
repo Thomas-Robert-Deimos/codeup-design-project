@@ -17,13 +17,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
             integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
             crossorigin="anonymous"></script>
+<!--    custom code plus fonts and icons-->
     <link rel="stylesheet" href="css/group-project-1.css">
     <link href="https://fonts.googleapis.com/css?family=Abel|Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Codeup Design</title>
 </head>
+
+<!--html code-->
 <body>
 
+<!-- Fist nav bar for extra small screen-->
+<!-- will only appear for any screen Bootstap 4 considered extra small resolution-->
+<!-- jumbotron was used to create the effects of the white bar behind the logo-->
+<!-- the logo was moved into place using absolute positioning method (along with all the other add bars)-->
 <nav class="nav-bar my-5 d-block d-sm-none">
     <div class="jumbotron">
         <img class="logo overflow-auto large-nav-logo" src="img/assets/logo.jpg">
@@ -39,6 +46,10 @@
     </div>
 </nav>
 
+
+<!-- Second nav bar that will only show for screens resolutions that Bootstrap 4 considers small.-->
+<!-- this nav bar essentially moved the table into the jumbotron where the logo was and moved the logo to its center-->
+<!-- the logo was moved into place using absolute positioning method (along with all the other add bars)-->
 <nav class="nav-bar d-none d-sm-block d-md-none">
     <div class="jumbotron">
         <div class="links-bar">
@@ -54,7 +65,9 @@
     </div>
     <div class="companyName">Codeup design</div>
 </nav>
-<!-- large nav bar -->
+<!-- Final nav bar for medium screens and higher -->
+<!-- this bar predominantly uses bootstrap code to function-->
+<!-- the logo was moved into place using absolute positioning method (along with all the other add bars)-->
 <nav class="navbar d-none d-sm-none d-md-block navbar-expand-md navbar-light bg-light mt-4 mb-4">
     <div class="container bg-light">
         <div></div>
@@ -73,9 +86,10 @@
 
 </nav>
 
-
+<!-- container and where the true part of the body begins-->
+<!-- this container uses bootstrap 4 to create a grid layout for the page that will change based on the 5 screen sizes determined by bootstrap-->
 <div class="container">
-
+<!-- Header Text used for the page-->
     <div class="row">
         <div class="center-title col">
             <h2>VISUAL DESIGN & WEB DEVELOPMENT</h2>
@@ -86,6 +100,10 @@
             <h4>FROM PARK CITY, UTAH</h4>
         </div>
     </div>
+
+<!--    The four buttons ow the web page (design, develop, support, host-->
+<!--     these buttons will dynamically change from one screen size to the other-->
+<!--     design note: the 'm*-' class is a bootstrap 4 class to determine margin 'my-' for top and bottom, 'mx' for left and right-->
     <div class="row justify-content-center no-gutters" align="center">
         <div class="col-4 col-sm-2 my-2 mx-3">
             <button class="design-button button-margin-left">DESIGN</button>
@@ -101,9 +119,13 @@
         </div>
     </div>
     <!--    solid line goes here-->
+<!--    will only appear for screens larger than extra small-->
     <hr class="hidden-xs">
     <br>
 
+<!--    the Selected work and the lasts grid sections-->
+<!--    this grid is comprised of two sub-grids.-->
+<!--    grid one-->
     <div class="row ">
         <div class="col col-md-8 center-t">SELECTED WORK</div>
         <div class="col-md-4 hidden-s">THE LAST</div>
