@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Abel', sans-serif;
+    background-color: #F0F0F0;
 }
 
 h1{
@@ -274,6 +275,26 @@ hr{
     }
     .hidden-s{
 
+    }
+    .links-bar ul{
+        display: flex;
+        padding: 0;
+        padding-top: 18px;
+        margin: 0;
+        background-color: white;
+        justify-content: space-evenly;
+    }
+
+    .links-bar li{
+        background-color: white;
+    }
+
+    .logo{
+        top: 35px;
+    }
+
+    .companyName{
+        margin-bottom: 10px;
     }
 
 }
