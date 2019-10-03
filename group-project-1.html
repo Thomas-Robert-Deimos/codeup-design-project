@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<nav class="nav-bar m-5 d-block d-sm-none">
+<nav class="nav-bar my-5 d-block d-sm-none">
     <div class="jumbotron">
         <img class="logo overflow-auto large-nav-logo" src="img/assets/logo.jpg">
     </div>
@@ -48,12 +48,29 @@
     <div class="companyName">Codeup design</div>
 </nav>
 <!-- large nav bar -->
-<nav class="navbar d-none d-sm-none d-md-block navbar-light bg-light mt-4 mb-4">
-    <a class="navbar-brand" href="#"><img class="logo large-nav-logo" src="img/assets/logo.jpg"></a>
+<nav class="navbar d-none d-sm-none d-md-block navbar-expand-md navbar-light bg-light mt-4 mb-4">
+    <div class="container bg-light">
+        <div></div>
+        <a class="navbar-brand ml-5" href="#"><img class="logo large-nav-logo" src="img/assets/logo.jpg"></a>
+        <a class="navbar-brand ml-5">Codeup design</a>
+        <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+            <ul class="navbar-nav bg-light ml-auto">
+                <li class="nav-item bg-light"><a class="nav-link" href="#">SERVICES</a></li>
+                <li class="nav-item bg-light"><a class="nav-link" href="#">WORK</a></li>
+                <li class="nav-item bg-light"><a class="nav-link" href="#">BLOG</a></li>
+                <li class="nav-item bg-light"><a class="nav-link" href="#">CONTACT</a></li>
+            </ul>
+        </div>
+
+    </div>
+
 </nav>
 
 
 <div class="container">
+
+
+
     <div class="row">
         <div class="center-title col">
             <h2>VISUAL DESIGN & WEB DEVELOPMENT</h2>
@@ -65,10 +82,10 @@
         </div>
     </div>
     <div class="row justify-content-center no-gutters" align="center">
-        <div class="col-5 col-sm-2 m-2"><button class="design-button button-margin-left">DESIGN</button></div>
-        <div class="col-5 col-sm-2 m-2"><button class="develop-button button-margin-right">DEVELOP</button></div>
-        <div class="col-5 col-sm-2 m-2"><button class="support-button button-margin-left">SUPPORT</button></div>
-        <div class="col-5 col-sm-2 m-2"><button class="host-button button-margin-right">HOST</button></div>
+        <div class="col-4 col-sm-2 my-2 mx-3"><button class="design-button button-margin-left">DESIGN</button></div>
+        <div class="col-4 col-sm-2 my-2 mx-3"><button class="develop-button button-margin-right">DEVELOP</button></div>
+        <div class="col-4 col-sm-2 my-2 mx-3"><button class="support-button button-margin-left">SUPPORT</button></div>
+        <div class="col-4 col-sm-2 my-2 mx-3"><button class="host-button button-margin-right">HOST</button></div>
     </div>
     <!--    solid line goes here-->
     <hr class="hidden-xs">

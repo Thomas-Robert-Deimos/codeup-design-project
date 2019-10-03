@@ -158,7 +158,7 @@ hr{
 
 .nav-bar{
     /*background-color: #F0F0F0;*/
-    margin: auto;
+    margin: 0;
     /*height: ;*/
     text-align: center;
     /*background-color: white;*/
@@ -254,6 +254,7 @@ hr{
 }
 .large-nav-logo {
     position: absolute;
+    transform: translate(-50px, -60px);
     z-index: 100;
 }
 
