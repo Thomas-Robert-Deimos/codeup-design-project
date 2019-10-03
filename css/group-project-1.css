@@ -249,6 +249,8 @@ hr{
 
 .img-max-man {
     /*padding-bottom: 20px;*/
+    max-height: 216px;
+
 }
 
 /*
@@ -297,6 +299,13 @@ hr{
         margin-bottom: 10px;
     }
 
+    .img-max-man {
+        /*padding-bottom: 20px;*/
+        max-height: 150px;
+
+    }
+
+
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -308,6 +317,11 @@ hr{
     .hidden-s{
         visibility: visible;
     }
+    .img-max-man {
+        /*padding-bottom: 20px;*/
+        max-height: 132px;
+
+    }
 
 }
 
@@ -317,9 +331,19 @@ hr{
         text-align: left;
         padding-left: 30px;
     }
+    .img-max-man {
+        /*padding-bottom: 20px;*/
+        max-height: 180px;
+
+    }
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media screen and (min-width: 1200px) {
+    .img-max-man {
+        /*padding-bottom: 20px;*/
+        max-height: 216px;
+
+    }
 
 }
