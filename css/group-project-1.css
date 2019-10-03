@@ -1,8 +1,14 @@
-/*Constants*/
-/**/
+/*
+    Constants
+*/
+
 * {
     background-color: #F0F0F0;
 }
+
+/*
+   basic set up with fonts and sizes
+*/
 
 body {
     font-family: 'Abel', sans-serif;
@@ -34,13 +40,25 @@ h5 {
     font-size: 28px;
 }
 
+/*
+   ul list item set to none
+*/
+
 ul {
     list-style: none;
 }
 
+/*
+   horizontal line width reduced
+*/
+
 hr {
     width: 75%;
 }
+
+/*
+   images sizes and borders classes set
+*/
 
 .project-img {
     border: #E6E6E6 solid 10px;
@@ -63,9 +81,7 @@ hr {
 }
 
 /*
-
-    Button design
-
+   Button classes and designs
 */
 
 .design-button {
@@ -109,9 +125,7 @@ hr {
 }
 
 /*
-
-    Logo and Nav Bar & xsmall setup
-
+   Logo and Nav Bar & xsmall setup
 */
 
 .jumbotron {
@@ -167,12 +181,10 @@ hr {
     text-align: center;
 }
 
-
 /*
-
-    Icon Table
-
+   Icons classes for Table and design
 */
+
 .icon-table {
     display: flex;
 }
@@ -237,15 +249,14 @@ hr {
 }
 
 /*
+   media screens
 
-    media screens
+ Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap
 
-*/
+ Small devices (landscape phones, 576px and up)
+ */
 
-/*// Extra small devices (portrait phones, less than 576px)*/
-/*// No media query for `xs` since this is the default in Bootstrap*/
-
-/*// Small devices (landscape phones, 576px and up)*/
 @media screen and (min-width: 576px) {
     .button-margin-left {
         margin: 0;
@@ -290,7 +301,10 @@ hr {
 
 }
 
-/*// Medium devices (tablets, 768px and up)*/
+/*
+   Medium devices (tablets, 768px and up)
+*/
+
 @media screen and (min-width: 768px) {
     hr {
         width: 90%;
@@ -306,7 +320,10 @@ hr {
 
 }
 
-/*// Large devices (desktops, 992px and up)*/
+/*
+   Large devices (desktops, 992px and up)
+*/
+
 @media screen and (min-width: 992px) {
     .center-t {
         text-align: left;
@@ -319,7 +336,10 @@ hr {
 
 }
 
-/*// Extra large devices (large desktops, 1200px and up)*/
+/*
+   Extra large devices (large desktops, 1200px and up)
+*/
+
 @media screen and (min-width: 1200px) {
     .img-max-man {
         max-height: 216px;
